@@ -1,0 +1,45 @@
+﻿Build started 2017/5/27 17:24:10.
+     1>Project "E:\test\vs2010_libevent\LibEvent2021\LibEvent2021.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\LibEvent2021.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(E:\test\vs2010_libevent\Debug\LibEvent2021.lib) does not match the Library's OutputFile property value (E:\test\Libevent_Test\Libevent_Test\Libevent_Test\lib\LibEvent2021.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"E:\test\Libevent_Test\Libevent_Test\Libevent_Test\lib\LibEvent2021.lib" /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" /NOLOGO Debug\buffer.obj
+         Debug\bufferevent.obj
+         Debug\bufferevent_async.obj
+         Debug\bufferevent_filter.obj
+         Debug\bufferevent_openssl.obj
+         Debug\bufferevent_pair.obj
+         Debug\bufferevent_ratelim.obj
+         Debug\bufferevent_sock.obj
+         Debug\buffer_iocp.obj
+         Debug\evdns.obj
+         Debug\event.obj
+         Debug\event_iocp.obj
+         Debug\event_tagging.obj
+         Debug\evmap.obj
+         Debug\evrpc.obj
+         Debug\evthread.obj
+         Debug\evthread_win32.obj
+         Debug\evutil.obj
+         Debug\evutil_rand.obj
+         Debug\http.obj
+         Debug\listener.obj
+         Debug\log.obj
+         Debug\signal.obj
+         Debug\strlcpy.obj
+         Debug\win32select.obj
+         LibEvent2021.vcxproj -> E:\test\vs2010_libevent\Debug\LibEvent2021.lib
+       PostBuildEvent:
+         lib /nologo ./Debug/event.obj ./Debug/buffer.obj ./Debug/bufferevent.obj ./Debug/bufferevent_sock.obj  ./Debug/bufferevent_pair.obj ./Debug/listener.obj ./Debug/evmap.obj ./Debug/log.obj ./Debug/evutil.obj  ./Debug/strlcpy.obj ./Debug/signal.obj ./Debug/bufferevent_filter.obj ./Debug/evthread.obj  ./Debug/bufferevent_ratelim.obj ./Debug/evutil_rand.obj ./Debug/win32select.obj ./Debug/evthread_win32.obj ./Debug/buffer_iocp.obj  ./Debug/event_iocp.obj ./Debug/bufferevent_async.obj /out:../lib/libevent_core.lib
+         :VCEnd
+       FinalizeBuildStatus:
+         Deleting file "Debug\LibEvent2021.unsuccessfulbuild".
+         Touching "Debug\LibEvent2021.lastbuildstate".
+     1>Done Building Project "E:\test\vs2010_libevent\LibEvent2021\LibEvent2021.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.56

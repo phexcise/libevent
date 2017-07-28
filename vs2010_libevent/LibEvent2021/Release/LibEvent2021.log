@@ -1,0 +1,102 @@
+﻿生成启动时间为 2013/10/23 16:27:47。
+     1>项目“F:\LibEvent2021\LibEvent2021\LibEvent2021.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\LibEvent2021\Release\”。
+       InitializeBuildStatus:
+         正在创建“Release\LibEvent2021.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\include /I.\compat /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt buffer.c bufferevent.c bufferevent_async.c bufferevent_filter.c bufferevent_openssl.c bufferevent_pair.c bufferevent_ratelim.c bufferevent_sock.c buffer_iocp.c evdns.c event.c event_iocp.c event_tagging.c evmap.c evrpc.c evthread.c evthread_win32.c evutil.c evutil_rand.c http.c listener.c log.c signal.c strlcpy.c win32select.c
+         buffer.c
+     1>buffer.c(2208): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(313) : 参见“read”的声明
+     1>buffer.c(2215): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(313) : 参见“read”的声明
+         bufferevent.c
+         bufferevent_async.c
+         bufferevent_filter.c
+         bufferevent_openssl.c
+         bufferevent_pair.c
+         bufferevent_ratelim.c
+         bufferevent_sock.c
+         buffer_iocp.c
+         evdns.c
+         event.c
+         event_iocp.c
+         event_tagging.c
+         evmap.c
+         evrpc.c
+         evthread.c
+         evthread_win32.c
+         evutil.c
+     1>evutil.c(101): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(235) : 参见“_open”的声明
+     1>evutil.c(103): warning C4996: '_open': This function or variable may be unsafe. Consider using _sopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(235) : 参见“_open”的声明
+     1>evutil.c(441): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sys/timeb.h(124) : 参见“_ftime64”的声明
+     1>evutil.c(1544): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>evutil.c(1566): warning C4996: '_vsnprintf': This function or variable may be unsafe. Consider using _vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(363) : 参见“_vsnprintf”的声明
+     1>evutil.c(1692): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>evutil.c(1721): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>evutil.c(2099): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>evutil.c(2173): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+     1>evutil.c(2174): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         evutil_rand.c
+         http.c
+     1>http.c(505): warning C4996: 'gmtime': This function or variable may be unsafe. Consider using gmtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(99) : 参见“gmtime”的声明
+     1>http.c(1476): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+         正在编译...
+         listener.c
+         log.c
+     1>log.c(90): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+     1>log.c(101): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\string.h(157) : 参见“strerror”的声明
+         signal.c
+         strlcpy.c
+         win32select.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"F:\LibEvent2021\Release\LibEvent2021.lib" /NOLOGO /LTCG Release\buffer.obj
+         Release\bufferevent.obj
+         Release\bufferevent_async.obj
+         Release\bufferevent_filter.obj
+         Release\bufferevent_openssl.obj
+         Release\bufferevent_pair.obj
+         Release\bufferevent_ratelim.obj
+         Release\bufferevent_sock.obj
+         Release\buffer_iocp.obj
+         Release\evdns.obj
+         Release\event.obj
+         Release\event_iocp.obj
+         Release\event_tagging.obj
+         Release\evmap.obj
+         Release\evrpc.obj
+         Release\evthread.obj
+         Release\evthread_win32.obj
+         Release\evutil.obj
+         Release\evutil_rand.obj
+         Release\http.obj
+         Release\listener.obj
+         Release\log.obj
+         Release\signal.obj
+         Release\strlcpy.obj
+         Release\win32select.obj
+         LibEvent2021.vcxproj -> F:\LibEvent2021\Release\LibEvent2021.lib
+       PostBuildEvent:
+         lib /nologo ./Debug/event.obj ./Debug/buffer.obj ./Debug/bufferevent.obj ./Debug/bufferevent_sock.obj  ./Debug/bufferevent_pair.obj ./Debug/listener.obj ./Debug/evmap.obj ./Debug/log.obj ./Debug/evutil.obj  ./Debug/strlcpy.obj ./Debug/signal.obj ./Debug/bufferevent_filter.obj ./Debug/evthread.obj  ./Debug/bufferevent_ratelim.obj ./Debug/evutil_rand.obj ./Debug/win32select.obj ./Debug/evthread_win32.obj ./Debug/buffer_iocp.obj  ./Debug/event_iocp.obj ./Debug/bufferevent_async.obj /out:../lib/libevent_core.lib
+         :VCEnd
+       FinalizeBuildStatus:
+         正在删除文件“Release\LibEvent2021.unsuccessfulbuild”。
+         正在对“Release\LibEvent2021.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\LibEvent2021\LibEvent2021\LibEvent2021.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.80
